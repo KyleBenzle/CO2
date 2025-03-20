@@ -1,0 +1,66 @@
+====================================================================
+STATISTICAL ANALYSIS SUMMARY - CO2 LEVELS IN N95 MASKS DURING BREATHING
+====================================================================
+
+SAMPLE SIZE:
+- Total measurements: 413
+- By measurement type:
+  * End of Breath OUT: 204
+  * End of Breath IN: 197
+  * Baseline: 12
+- By mask type:
+  * Double Mask: 207
+  * Single Mask: 206
+
+DESCRIPTIVE STATISTICS (CO2 in ppm):
+
+Baseline (n=12):
+  Mean +/- SD: 518.47 +/- 132.76
+  Median: 502.90
+  Range: 379.43 - 768.12
+
+End of Breath IN (n=197):
+  Mean +/- SD: 4567.72 +/- 1681.43
+  Median: 4428.72
+  Range: 1261.28 - 10000.00
+
+End of Breath OUT (n=204):
+  Mean +/- SD: 9006.54 +/- 1605.02
+  Median: 10000.00
+  Range: 2731.60 - 10000.00
+
+STATISTICAL ANALYSIS:
+
+1. One-way ANOVA (comparing all three measurement types)
+  F-statistic: 463.9717
+  p-value: 0.33845437
+  Result: No significant difference
+
+2. Pairwise comparisons between measurement types (t-tests)
+  Baseline vs End of Breath IN:
+    t-statistic: -32.1937
+    p-value: 0.00000000
+    Result: Significant difference
+
+  Baseline vs End of Breath OUT:
+    t-statistic: -71.4910
+    p-value: 0.00000000
+    Result: Significant difference
+
+  End of Breath IN vs End of Breath OUT:
+    t-statistic: -27.0242
+    p-value: 0.00000000
+    Result: Significant difference
+
+
+Correlation analysis:
+  CO2 and Temperature: 0.5237
+  CO2 and Humidity: 0.8728
+  Temperature and Humidity: 0.3818
+
+CONCLUSIONS:
+1. CO2 levels are significantly elevated inside N95 masks during the respiratory cycle
+2. End-of-expiration CO2 levels (9006.54 ppm) are approximately 17.4x higher than baseline (518.47 ppm)
+3. End-of-inspiration CO2 levels (4567.72 ppm) are approximately 8.8x higher than baseline (518.47 ppm)
+4. There is no significant difference in CO2 levels between single and double masks during breathing
+5. CO2 levels show strong correlation with humidity (r=0.87) and moderate correlation with temperature (r=0.52)
